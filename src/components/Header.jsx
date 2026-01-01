@@ -6,7 +6,7 @@ export default function HeaderComponent() {
     <nav className="px-4 py-3 shadow bg-base-100 flex justify-between">
       <div className="flex gap-2 items-center">
         <figure className="relative w-9 h-9">
-          <Image src={"logo.png"} alt="" fill />
+          <Image src={"/logo.png"} alt="" fill />
         </figure>
         <p className="font-bold text-xl">
           <span className="me-px text-primary">Task</span>

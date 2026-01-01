@@ -15,7 +15,7 @@ export default function FooterComponent() {
       <Container>
         <aside className="flex items-center justify-center flex-col text-center mb-6 gap-3">
           <figure className="relative w-16 h-16">
-            <Image src={"logo.png"} alt="" fill />
+            <Image src={"/logo.png"} alt="" fill />
           </figure>
           <p className="font-bold">
             <span className="text-primary text-xl">Task Fuse Inc.</span>

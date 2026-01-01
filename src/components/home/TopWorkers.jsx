@@ -4,10 +4,13 @@ import Container from "../Container";
 
 export default async function TopWorkersComponent() {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_BASE_URL}/data/top-users.json`
+    `${process.env.NEXT_PUBLIC_BASE_URL}/data/top-users.json`,
+    {
+      cache: "no-store",
+    }
   );
   const users = await res.json();
-  const topUserCoins = Math.max(...users.map((u) => u.coins));
+  const topUserCoins = Math.max(...users?.map((u) => u.coins));
   return (
     <section className="pt-24">
       <CommonTitle
