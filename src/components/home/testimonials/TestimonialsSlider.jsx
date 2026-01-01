@@ -5,7 +5,6 @@ import Image from "next/image";
 import { FaQuoteRight } from "react-icons/fa";
 
 export default function TestimonialsSlider({ reviews }) {
-  console.log("reviews", reviews);
   return (
     <Swiper
       effect={"cards"}

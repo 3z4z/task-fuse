@@ -1,9 +1,8 @@
 import CommonTitle from "../CommonTitle";
 import Container from "../Container";
+import faqs from "@/../public/data/faq.json";
 
 export default async function FaqComponent() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/faq.json`);
-  const faqs = await res.json();
   return (
     <section className="pt-24">
       <CommonTitle

@@ -1,15 +1,9 @@
 import WorkerCard from "../card/WorkerCard";
 import CommonTitle from "../CommonTitle";
 import Container from "../Container";
+import users from "@/../public/data/top-users.json";
 
-export default async function TopWorkersComponent() {
-  const res = await fetch(
-    `${process.env.NEXT_PUBLIC_BASE_URL}/data/top-users.json`,
-    {
-      cache: "no-store",
-    }
-  );
-  const users = await res.json();
+export default function TopWorkersComponent() {
   const topUserCoins = Math.max(...users?.map((u) => u.coins));
   return (
     <section className="pt-24">
