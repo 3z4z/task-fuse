@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Ayesha Rahman",
+    "profilePic": "https://images2.imgbox.com/6f/3f/iOclC6z1_o.jpg",
+    "coins": 1280
+  },
+  {
+    "id": 2,
+    "name": "Salman Farid",
+    "profilePic": "https://images2.imgbox.com/7d/ca/O5XD7snX_o.jpg",
+    "coins": 1150
+  },
+  {
+    "id": 3,
+    "name": "Fatima Noor",
+    "profilePic": "https://images2.imgbox.com/86/b9/aHbMcVFI_o.jpg",
+    "coins": 1095
+  },
+  {
+    "id": 4,
+    "name": "Arif Khan",
+    "profilePic": "https://images2.imgbox.com/37/1d/rbVw5P2N_o.jpg",
+    "coins": 1020
+  },
+  {
+    "id": 5,
+    "name": "Asif Uddin Talukdar",
+    "profilePic": "https://images2.imgbox.com/6f/a7/DAWydf9h_o.jpg",
+    "coins": 980
+  },
+  {
+    "id": 6,
+    "name": "Rafiq Islam",
+    "profilePic": "https://images2.imgbox.com/71/49/AhaToYW4_o.jpg",
+    "coins": 940
+  }
+]

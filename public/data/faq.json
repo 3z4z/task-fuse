@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "How do I sign up?",
+    "answer": "Signing up is simple! Click the Sign Up button, fill in your details, and verify your email to get started."
+  },
+  {
+    "id": 2,
+    "question": "What types of tasks can I do?",
+    "answer": "You can complete regular tasks and, depending on your subscription plan, special tasks to earn more money."
+  },
+  {
+    "id": 3,
+    "question": "How do I earn money?",
+    "answer": "Pick a task from the available list, complete it according to the instructions, and your earnings will be added to your account."
+  },
+  {
+    "id": 4,
+    "question": "Can I change my subscription plan?",
+    "answer": "Yes! You can upgrade or downgrade your plan anytime from your account settings."
+  },
+  {
+    "id": 5,
+    "question": "Is there a monthly limit on tasks?",
+    "answer": "Yes, each subscription plan has a monthly task limit for regular and special tasks. Check your plan details for exact numbers."
+  },
+  {
+    "id": 6,
+    "question": "How do I get support?",
+    "answer": "You can reach out to our support team via the Help section in your account or by emailing support@example.com."
+  }
+]

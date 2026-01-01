@@ -1,26 +1,55 @@
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@plugin "daisyui" {
+  themes: "light";
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@plugin "daisyui/theme" {
+  name: "mytheme";
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Base (UI background) */
+  --color-base-100: oklch(98% 0.015 240);
+  --color-base-200: oklch(95% 0.02 240);
+  --color-base-300: oklch(92% 0.025 240);
+  --color-base-content: oklch(22% 0.04 240);
+
+  /* Primary (Tech Blue) */
+  --color-primary: oklch(60% 0.27 240);
+  --color-primary-content: oklch(98% 0.01 240);
+
+  /* Secondary (Soft Blue-Teal) */
+  --color-secondary: oklch(60% 0.22 275);
+  --color-secondary-content: oklch(98% 0.01 210);
+
+  /* Accent (Cyan-Green → Earning vibe) */
+  --color-accent: oklch(68% 0.23 160);
+  --color-accent-content: oklch(98% 0.01 160);
+
+  /* Neutral (clean gray system) */
+  --color-neutral: oklch(48% 0.04 250);
+  --color-neutral-content: oklch(96% 0.01 250);
+
+  /* Info */
+  --color-info: oklch(72% 0.18 220);
+  --color-info-content: oklch(98% 0.01 220);
+
+  /* Success (green, bright but not neon) */
+  --color-success: oklch(63% 0.22 140);
+  --color-success-content: oklch(98% 0.01 140);
+
+  /* Warning (yellow-gold) */
+  --color-warning: oklch(82% 0.22 90);
+  --color-warning-content: oklch(22% 0.04 90);
+
+  /* Error (red without being harsh) */
+  --color-error: oklch(60% 0.25 30);
+  --color-error-content: oklch(98% 0.01 30);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-google-sans), Arial, Helvetica, sans-serif;
 }

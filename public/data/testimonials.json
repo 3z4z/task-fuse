@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "role": "CEO, TechCorp",
+    "avatar": "https://randomuser.me/api/portraits/women/65.jpg",
+    "feedback": "Working with this team was amazing! They delivered our project on time and exceeded expectations."
+  },
+  {
+    "id": 2,
+    "name": "Mark Thompson",
+    "role": "Product Manager, InnovateX",
+    "avatar": "https://randomuser.me/api/portraits/men/12.jpg",
+    "feedback": "Great communication and professionalism. Highly recommend their services."
+  },
+  {
+    "id": 3,
+    "name": "Sofia Lee",
+    "role": "Designer, Creativa",
+    "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+    "feedback": "The quality of work and attention to detail was top-notch. Will work with them again!"
+  },
+  {
+    "id": 4,
+    "name": "James Miller",
+    "role": "Founder, StartUpHub",
+    "avatar": "https://randomuser.me/api/portraits/men/78.jpg",
+    "feedback": "Very skilled team. They understood our requirements perfectly and delivered efficiently."
+  },
+  {
+    "id": 5,
+    "name": "Emily Davis",
+    "role": "Marketing Head, BrightIdeas",
+    "avatar": "https://randomuser.me/api/portraits/women/32.jpg",
+    "feedback": "Fantastic experience! The team is creative, responsive, and professional."
+  },
+  {
+    "id": 6,
+    "name": "Robert Wilson",
+    "role": "CTO, NextGen Solutions",
+    "avatar": "https://randomuser.me/api/portraits/men/56.jpg",
+    "feedback": "Solid expertise and timely delivery. I’m impressed with their work."
+  }
+]
