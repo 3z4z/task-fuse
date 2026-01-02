@@ -2,7 +2,7 @@ import CommonTitle from "../CommonTitle";
 import Container from "../Container";
 import faqs from "@/../public/data/faq.json";
 
-export default async function FaqComponent() {
+export default function FaqComponent() {
   return (
     <section className="pt-24">
       <CommonTitle

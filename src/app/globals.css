@@ -3,8 +3,23 @@
   themes: "light";
 }
 
+label.label {
+  @apply text-sm mt-1;
+}
+
+input.input,
+button.btn,
+select.select {
+  @apply rounded-full;
+}
+
+input.input,
+select.select {
+  @apply w-full focus-within:outline-0 transition-all;
+}
+
 @plugin "daisyui/theme" {
-  name: "mytheme";
+  name: "light";
   default: true;
   prefersdark: false;
   color-scheme: light;

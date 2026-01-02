@@ -16,9 +16,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${googleSans.variable} antialiased`}>
+      <body
+        className={`${googleSans.variable} antialiased flex flex-col min-h-dvh`}
+      >
         <HeaderComponent />
-        {children}
+        <div className="flex-1">{children}</div>
         <FooterComponent />
       </body>
     </html>
